@@ -1,0 +1,5 @@
+(int 123)
+(call `printInt (call `subtractInt (int 2015) (sub (int 1973) (int 1))))
+(call`printInt(call`subtractInt(int 2015)(sub(int 1973)(int 1))))
+(int 1) (loop (call `printInt (int 1999))(brk))
+(int 1) (loop (ifn (le (getl 0) (int 10)) (brk)) (call `printInt (mul (int 7)(getl 0))) (setl 0 (inc (getl 0))))
